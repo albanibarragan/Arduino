@@ -72,7 +72,7 @@ void loop()
 
       if (indice == 4) {
         newPassword[4] = '\0';
-        Serial.print("✅ Nueva clave guardada: ");
+        Serial.print("Nueva clave guardada: ");
         Serial.println(newPassword);
         strcpy(passwordGuardada, newPassword);
         modoCambioClave = false;
